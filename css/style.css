@@ -502,7 +502,7 @@ header img:hover{
 #register-user{
     border: 4px solid var(--gray-color);
     padding: 30px;
-    margin-bottom: 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -518,19 +518,23 @@ header img:hover{
     padding: 10px 20px;
 }
 
-.form-register input, select{
+.form-register input, .form-register select{
     border: 2px solid var(--blue-color);
     height: 35px;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 .date-register{
     display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 1.5% 0 1.5%;
 }
 
-.date-register input{
+.date-register .group-data input{
     display: flex;
-    width: 320px;
+    margin-right: 35px;
+    width: 250px;
 }
 
 .title-user-new{
@@ -614,6 +618,13 @@ header img:hover{
     margin-top: 50px;
 }
 
+.pacientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 table{
 	width:70%; 
 	border-collapse:collapse;
@@ -679,17 +690,19 @@ tr:hover{
     display: flex;
     align-items: flex-start;
     height: 80%;
+    width: 70%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
+    padding: 0;
 }
 
 .patients-btons .form-group{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     margin: 0;
+    padding: 0;
 }
 
 .patients-btons .form-group input{
@@ -702,6 +715,10 @@ tr:hover{
 
 .patients-btons .bton-ingresar i{
     margin-left: 5px;
+}
+
+.patients-btons .bton-ingresar{
+    margin-left: 0;
 }
 
 #patients h1{
