@@ -1,27 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Forja | Inicio de sesión </title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Forja</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <script src="https://kit.fontawesome.com/98bd21cde9.js" crossorigin="anonymous"></script>
     </head>
+        
+    <body class="bg-login">
+        <main>
+            <section id="login">
+                <a href="index.html"><button class="bton-login">Volver al Inicio</button></a>
+                <div class="contain-all">
+                
+                <div class="logo-lgin">
+                    <img src="img/0. logoforja.png" alt="Logo Forja Empresas">
+                    <p>Contigo, ¡Siempre!</p>
+                </div>
+                <form action="" method="post"  class="form-login">  
+                    <div class="form-group">
+                        <label for="user" class="form-label">Usuario</label>
+                        <input type="text" name="user" id="user" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
 
-    <body>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <a href="dashboard.html"><input type="button" class="bton-ingresar" value="Ingresar"></a> 
 
-        <a href="#"><button class="btn-volver">Volver al inicio</button></a>
-        <div class="logo">
-            <img src="img/0. logoforja.png" alt="">
-            <h5>Contigo, ¡siempre!</h5>
-        </div>
-        <form class="inputs-container">
-            <label for="nombre">Usuario</label>
-            <input class="input" type="text">
-            <label for="nombre">Contraseña</label>
-            <input class="input" type="password">
-            <a href="#">¿Olvidaste tu contraseña?</a>
-            <a href="#"><button class="btn">Ingresar</button></a>
-        </form>       
-
+            </div>
+                </form>
+        
+            </section>
+        </main>
     </body>
+
 </html>

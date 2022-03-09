@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    background-image: url("../img/10.png");
+}
+
+.logo{
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #A8DDE0;
+    margin: 15px 550px 0px;
+    padding: 40px;
+    height: 140px;
+}
+
+.inputs-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    margin: 0 550px 100px;
+    height: 300px;
+}
+
+.input{
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a8dde054;
+    margin: 0 0 0 10px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #F36106;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn-volver{
+    background-color: #1d1b45;
+    color: white;
+    margin: 50px 0 0 852px;
+    border-radius: 5px;
+    border-color: #261ec0;
+    height: 30px;
+}
+
+.body_paciente{
+    background: none;
+}
+
+.header_paciente{
+    background-color: black;
+    
+}
+
+.franja{
+    max-width: 1536px;
+    margin: 0 -8px;
+}
+
+.power, .user{
+    float: right;
+}
+
+table{
+    border: 4px solid #A8DDE0;
+    background-color: #c4c4c4;
+}
+
+th{
+    background-color: black;
+    color: white;
+    border:4px solid #A8DDE0;
+}
+
+td{
+    border:4px solid #A8DDE0;
+}
